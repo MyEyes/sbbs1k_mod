@@ -1,0 +1,295 @@
+{
+    "name": "HEROES    ",
+    "fielders": [
+        {
+            "field_position": "LEFT_FIELD",
+            "number": 1,
+            "player": {
+                "name": "BOYD ",
+                "handedness": "L",
+                "st": 1,
+                "av": 150,
+                "hr": 0,
+                "r": 55,
+                "f": 16,
+                "yeet": 2,
+                "pwr": "FREAK_HIT"
+            }
+        },
+        {
+            "field_position": "CENTER_FIELD",
+            "number": 2,
+            "player": {
+                "name": "JED  ",
+                "handedness": "L",
+                "st": 2,
+                "av": 296,
+                "hr": 27,
+                "r": 26,
+                "f": 16,
+                "yeet": 2,
+                "pwr": "SQUIRREL_HIT"
+            }
+        },
+        {
+            "field_position": "RIGHT_FIELD",
+            "number": 3,
+            "player": {
+                "name": "BARN ",
+                "handedness": "R",
+                "st": 5,
+                "av": 312,
+                "hr": 31,
+                "r": 12,
+                "f": 16,
+                "yeet": 3,
+                "pwr": "SPINNER_HIT"
+            }
+        },
+        {
+            "field_position": "THIRD_BASE",
+            "number": 4,
+            "player": {
+                "name": "BOBY ",
+                "handedness": "R",
+                "st": 8,
+                "av": 552,
+                "hr": 51,
+                "r": 22,
+                "f": 16,
+                "yeet": 4,
+                "pwr": "BOMB_HIT"
+            }
+        },
+        {
+            "field_position": "SHORT_STOP",
+            "number": 5,
+            "player": {
+                "name": "BRET ",
+                "handedness": "R",
+                "st": 6,
+                "av": 471,
+                "hr": 42,
+                "r": 12,
+                "f": 16,
+                "yeet": 3,
+                "pwr": "HYPER_HIT"
+            }
+        },
+        {
+            "field_position": "SECOND_BASE",
+            "number": 6,
+            "player": {
+                "name": "CLIF ",
+                "handedness": "R",
+                "st": 4,
+                "av": 346,
+                "hr": 37,
+                "r": 14,
+                "f": 16,
+                "yeet": 4,
+                "pwr": "METEOR"
+            }
+        },
+        {
+            "field_position": "FIRST_BASE",
+            "number": 7,
+            "player": {
+                "name": "DENY ",
+                "handedness": "L",
+                "st": 3,
+                "av": 329,
+                "hr": 21,
+                "r": 15,
+                "f": 16,
+                "yeet": 3,
+                "pwr": "DIZZY_BALL"
+            }
+        },
+        {
+            "field_position": "CATCHER",
+            "number": 8,
+            "player": {
+                "name": "KENT ",
+                "handedness": "R",
+                "st": 2,
+                "av": 284,
+                "hr": 14,
+                "r": 6,
+                "f": 16,
+                "yeet": 2,
+                "pwr": "ORBIT_HIT"
+            }
+        },
+        {
+            "field_position": "PINCH_HITTER",
+            "number": 9,
+            "player": {
+                "name": "STAN ",
+                "handedness": "L",
+                "st": 1,
+                "av": 180,
+                "hr": 1,
+                "r": 0,
+                "f": 0,
+                "yeet": 2,
+                "pwr": "NOTHING"
+            }
+        },
+        {
+            "field_position": "PINCH_HITTER",
+            "number": 10,
+            "player": {
+                "name": "JOSE ",
+                "handedness": "R",
+                "st": 4,
+                "av": 152,
+                "hr": 2,
+                "r": 0,
+                "f": 0,
+                "yeet": 2,
+                "pwr": "NOTHING"
+            }
+        },
+        {
+            "field_position": "PINCH_HITTER",
+            "number": 11,
+            "player": {
+                "name": "CAL  ",
+                "handedness": "R",
+                "st": 7,
+                "av": 150,
+                "hr": 1,
+                "r": 0,
+                "f": 0,
+                "yeet": 2,
+                "pwr": "NOTHING"
+            }
+        },
+        {
+            "field_position": "PINCH_HITTER",
+            "number": 12,
+            "player": {
+                "name": "OREL ",
+                "handedness": "L",
+                "st": 8,
+                "av": 184,
+                "hr": 4,
+                "r": 0,
+                "f": 0,
+                "yeet": 2,
+                "pwr": "NOTHING"
+            }
+        }
+    ],
+    "pitchers": [
+        {
+            "number": 1,
+            "player": {
+                "name": "SKIP ",
+                "era": 121,
+                "spd": 114,
+                "r": 16,
+                "l": 15,
+                "f": 14,
+                "st": 61,
+                "pwr": [
+                    "SNAKE_BALL",
+                    "FIRE_BALL",
+                    "SPARK_BALL",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        },
+        {
+            "number": 2,
+            "player": {
+                "name": "ROD  ",
+                "era": 304,
+                "spd": 105,
+                "r": 3,
+                "l": 24,
+                "f": 14,
+                "st": 43,
+                "pwr": [
+                    "ZIG_ZAG_BALL",
+                    "SNAKE_BALL",
+                    "PHANTOM_BALL",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        },
+        {
+            "number": 3,
+            "player": {
+                "name": "LES  ",
+                "era": 268,
+                "spd": 110,
+                "r": 8,
+                "l": 7,
+                "f": 7,
+                "st": 70,
+                "pwr": [
+                    "IRON_BALL",
+                    "SPARK_BALL",
+                    "PHOTON_BALL",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        },
+        {
+            "number": 4,
+            "player": {
+                "name": "EDDY ",
+                "era": 313,
+                "spd": 104,
+                "r": 20,
+                "l": 10,
+                "f": 10,
+                "st": 40,
+                "pwr": [
+                    "MULTI_BALL",
+                    "WARP_BALL",
+                    "FADEOUT",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        },
+        {
+            "number": 5,
+            "player": {
+                "name": "SCOT ",
+                "era": 314,
+                "spd": 98,
+                "r": 30,
+                "l": 4,
+                "f": 9,
+                "st": 10,
+                "pwr": [
+                    "LOTTA_BALL",
+                    "TREMOR_BALL",
+                    "FIRE_BALL",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        },
+        {
+            "number": 6,
+            "player": {
+                "name": "SID  ",
+                "era": 227,
+                "spd": 87,
+                "r": 20,
+                "l": 20,
+                "f": 30,
+                "st": 20,
+                "pwr": [
+                    "STOPPER_BALL",
+                    "FLOATER_BALL",
+                    "CHANGE_UP_BALL",
+                    "QUESTIONMARK_BALL"
+                ]
+            }
+        }
+    ]
+}
