@@ -1,7 +1,8 @@
 # sbbs1k_mod
 Basic Python script for modding Super Baseball Simulator 1000 teams.
 
-This utility has no dependencies and should just work (tm).
+~This utility has no dependencies and should just work (tm).~
+This utility has a dependency on pillow for the team logo import/export.
 
 ## How to use
 Export the teams from the original US Version of the ROM with
