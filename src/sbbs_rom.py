@@ -37,6 +37,8 @@ class SBBS_ROM(SNES_ROM):
             team_path = os.path.join(path,f"team_{i}.json")
             with open(team_path, "w") as f:
                 json.dump(team.to_dict(), f)
+            logo_path = os.path.join(path,f"team_{i}.bmp")
+            team.logo.export_to(logo_path)
 
     def import_from(self, path:str):
         assert os.path.exists(path), f"Import path ({path}) doesn't exist."
@@ -49,6 +51,9 @@ class SBBS_ROM(SNES_ROM):
                     team_dict = json.load(f)
                     team.from_dict(team_dict)
                     team.update_in_rom()
+            logo_path = os.path.join(path,f"team_{i}.bmp")
+            if os.path.exists(logo_path):
+                team.logo.import_from(logo_path)
         return count
         
     def read_bytes(self, offset:int, size:int):

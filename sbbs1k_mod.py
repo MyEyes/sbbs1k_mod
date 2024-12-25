@@ -61,7 +61,8 @@ if __name__ == "__main__":
     #generate_team_test_roms(args, step_size=0x200)
     #generate_guess_test_roms(args, 0x18203, 0x2, 0x01) #overwriting original bytes 0x24 0x95 with 0x01 0x01 turns 'GUS' into 'AMOS' and 'LANE' into 'ELI'
     #generate_guess_test_roms(args, 0x18203, 0x1, 0x01) # #overwriting original byte 0x24 with 0x01 turns 'GUS' into 'AMOS'
-    #generate_guess_test_roms(args, 0x19380, 0x1, 0x0) # #overwriting original byte 0x24 with 0x12 turns 'GUS' into 'AMOS'
+    # for i in range(64):
+    #     generate_guess_test_roms(args, 0x58000+0x60*i, 4*8*3, i) # #overwriting original byte 0x24 with 0x12 turns 'GUS' into 'AMOS'
     
     if args.import_path:
         import_count = sbbs_rom.import_from(args.import_path)

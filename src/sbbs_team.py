@@ -1,6 +1,7 @@
 #from .sbbs_rom import SBBS_ROM
 from .sbbs_char_map import *
 from .sbbs_player import SBBS_Player, SBBS_Fielder, SBBS_Pitcher
+from .sbbs_team_logo import SBBS_Team_Logo
 from enum import Enum
 
 class SBBS_FIELD_POSITION(Enum):
@@ -96,6 +97,10 @@ class SBBS_Team:
         self.name = ""
         self.base_off = SBBS_Team.TEAM_BASE + self.idx*0x20
         self.__try_parse()
+        self.__get_logo()
+
+    def __get_logo(self):
+        self.logo = SBBS_Team_Logo(self.rom, self.idx)
 
     def __try_parse(self):
         self.name_bytes = self.rom.read_bytes(self.base_off + SBBS_Team.NAME_OFFSET, SBBS_Team.NAME_LENGTH)
@@ -127,3 +132,4 @@ class SBBS_Team:
             assignment.update_in_rom()
         for assignment in self.pitcher_players:
             assignment.update_in_rom()
+        self.logo.update_in_rom()
